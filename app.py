@@ -6,6 +6,8 @@ import time
 import random
 openai.api_key = st.secrets["OPENAI_KEY"]
 
+## don't forget to add your personal Api key to work perfectly
+
 # front end elements of the web page 
 html_temp = """ 
     <div style ="background-color:skyblue;padding:13px"> 
